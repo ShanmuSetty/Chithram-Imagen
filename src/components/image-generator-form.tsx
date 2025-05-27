@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -116,7 +117,7 @@ export function ImageGeneratorForm() {
       
       {(isLoading || imageUrl || error) && (
         <CardFooter className="mt-6">
-          <div className="w-full aspect-[4/3] sm:aspect-square bg-muted/30 rounded-lg shadow-md flex items-center justify-center overflow-hidden border border-border/30 relative transition-all duration-500 ease-in-out">
+          <div className="w-full aspect-video bg-muted/30 rounded-lg shadow-md flex items-center justify-center overflow-hidden border border-border/30 relative transition-all duration-500 ease-in-out">
             {isLoading && (
               <div className="flex flex-col items-center justify-center text-primary p-4 animate-fadeIn">
                 <Loader2 className="w-12 h-12 sm:w-16 sm:h-16 animate-spin" />
@@ -154,7 +155,7 @@ export function ImageGeneratorForm() {
       )}
        {!isLoading && !imageUrl && !error && (
          <CardFooter className="mt-6">
-            <div className="w-full aspect-[4/3] sm:aspect-square bg-muted/30 rounded-lg shadow-md flex items-center justify-center overflow-hidden border border-border/30 relative">
+            <div className="w-full aspect-video bg-muted/30 rounded-lg shadow-md flex items-center justify-center overflow-hidden border border-border/30 relative">
                 <div className="p-4 text-center text-muted-foreground animate-fadeIn">
                     <ImageIconLucide className="w-16 h-16 sm:w-24 sm:h-24 mx-auto mb-4 opacity-30" />
                     <p className="text-md sm:text-lg font-medium">Your AI-generated image will appear here.</p>
@@ -166,3 +167,5 @@ export function ImageGeneratorForm() {
     </Card>
   );
 }
+
+    
