@@ -1,4 +1,4 @@
-# **App Name**: ImagiCraft AI
+# **App Name**: Chithram Imagen
 
 ## Core Features:
 

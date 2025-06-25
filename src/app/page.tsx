@@ -11,9 +11,9 @@ export default function HomePage() {
           </div>
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight">
             <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-              ImagiCraft
+              Chithram
             </span>
-            <span className="text-primary"> AI</span>
+            <span className="text-primary"> Imagen</span>
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-muted-foreground max-w-xl mx-auto">
             Unleash your creativity. Describe your vision, and let our AI craft stunning visuals for you.
@@ -24,9 +24,7 @@ export default function HomePage() {
           <ImageGeneratorForm />
         </div>
       </main>
-      <footer className="w-full max-w-3xl mt-12 sm:mt-16 py-8 text-center text-muted-foreground text-sm">
-        <p>&copy; {new Date().getFullYear()} ImagiCraft AI. Create, Inspire, Innovate.</p>
-      </footer>
+      
     </div>
   );
 }

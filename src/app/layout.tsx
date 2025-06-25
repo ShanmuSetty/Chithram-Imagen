@@ -8,7 +8,7 @@ const geistSans = GeistSans; // Use direct import as per Next/Font v14+
 const geistMono = GeistMono;
 
 export const metadata: Metadata = {
-  title: 'ImagiCraft AI',
+  title: 'Chithram Imagen',
   description: 'Craft stunning visuals from your imagination with AI.',
   icons: null, // Explicitly disable favicon generation/serving by Next.js
 };
